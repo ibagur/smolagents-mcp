@@ -1,0 +1,16 @@
+smolagents[toolkit,mcp]
+python-dotenv
+litellm
+mcp
+uvx
+uvloop
+httpx
+numpy
+pandas
+matplotlib
+ipykernel
+jupyterlab
+ollama # Optional: If using Ollama models locally
+pubmedmcp>=0.1.3 # For PubMed MCP search
+arxiv-mcp-server # For arXiv search
+tavily-mcp>=0.1.3 # For Tavily search 
