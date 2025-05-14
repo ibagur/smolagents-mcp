@@ -1,10 +1,10 @@
-# SmolagentS MCP Integration
+# `smolagents` MCP Integration
 
-This repository showcases the integration of SmolagentS with Model Context Protocol (MCP) tools to build powerful agentic systems. The project demonstrates how to create intelligent agents that can utilize various specialized tools through the MCP standard.
+This repository showcases the integration of `smolagents` with Model Context Protocol (MCP) tools to build powerful agentic systems. The project demonstrates how to create intelligent agents that can utilize various specialized tools through the MCP standard.
 
 ## Overview
 
-SmolagentS is a framework for building lightweight AI agents that can leverage a range of tools and capabilities. This repository focuses specifically on how SmolagentS can be integrated with MCP (Model Context Protocol) tools to create agents that can:
+`smolagents` is a framework for building lightweight AI agents that can leverage a range of tools and capabilities. This repository focuses specifically on how `smolagents` can be integrated with MCP (Model Context Protocol) tools to create agents that can:
 
 - Search and retrieve information from different sources
 - Process specialized data (financial, scientific, etc.)
@@ -36,7 +36,7 @@ SmolagentS is a framework for building lightweight AI agents that can leverage a
 
 ### test_mcp.ipynb
 
-This introductory notebook demonstrates the core concepts of using MCP tools with SmolagentS. It covers:
+This introductory notebook demonstrates the core concepts of using MCP tools with `smolagents`. It covers:
 
 1. **Setting up MCP servers** - Configuring servers for different tools like Brave Search, PubMed, Tavily, arXiv, and Yahoo Finance
 2. **Loading tools from MCP servers** - Connecting to these servers and making their tools available to agents
@@ -50,7 +50,7 @@ The notebook serves as a practical introduction to how these systems can be comb
 
 ## Key Components
 
-- **SmolagentS**: Provides the agent framework
+- **`smolagents`**: Provides the agent framework
 - **MCP Servers**: Enable access to specialized tools
 - **LiteLLM**: Manages interaction with language models
 - **Tool Collections**: Organize available tools for the agent to use
@@ -70,6 +70,6 @@ The integration demonstrated in this repository is useful for:
 
 ## Acknowledgments
 
-- The SmolagentS team
+- The `smolagents` team
 - Contributors to the MCP standard
 - Developers of the various tool integrations 
